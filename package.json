@@ -6,7 +6,7 @@
   "scripts": {
     "init": "nodemon server.js",
     "start": "node server.js",
-    "client": "cd ../client && npm run start",
+    "client": "cd ./client && npm run start",
     "both": "concurrently \"npm run init\" \"npm run client\""
   },
   "keywords": [],
